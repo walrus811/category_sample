@@ -1,0 +1,45 @@
+.two-cols {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+}
+
+.first-col {
+  background-color: aliceblue;
+}
+
+.second-col {
+  background-color: lemonchiffon;
+}
+
+.on-drag {
+  background-color: lightskyblue;
+}
+
+.on-drag-no {
+  background-color: red;
+}
+
+.on-drag-up {
+  border-top: 2px red solid;
+}
+
+.on-drag-down {
+  border-bottom: 2px red solid;
+}
+
+#tree3 li {
+  list-style-type: none;
+}
+
+#tree3-to-root {
+  text-align: center;
+}
+
+.tree3-to-root-normal {
+  text-align: center;
+  background-color: lightgreen;
+}
+.tree3-to-root-hover {
+  background-color: greenyellow;
+}
